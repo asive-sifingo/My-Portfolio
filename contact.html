@@ -1,0 +1,161 @@
+<html>
+        
+<head>
+  
+    <style>
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rigba(255, 255, 255, 0.5);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+li a:hover {
+  background-color: rgba(255, 255, 255. 0.3);
+}
+
+        body {
+    background-image: url("portfolio-background.jpg"); background-repeat: no-repeat; background-size:2500px 400px; background-position:top;
+    background-color: white;
+        }
+
+        * {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: blac;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+    
+    </style>
+ 
+
+</head>   
+<body>
+        <ul>
+                
+                
+                <li style="float:right"><a class="active" href="contact.html">Contact</a></li>
+                    <li style="float:right"><a class="active" href="about.html">About</a></li>
+                        <li style="float:right"><a class="active" href="services.html">Services</a></li>
+                            <li style="float:right"><a class="active" href="index.html">Home</a></li>
+              </ul>
+
+<h2 style="font-size: 80px; text-align: center;color: white; font-family: 'Times New Roman', Times, serif">GET IN TOUCH WITH ME...</h2>
+<h3 style="font-size: 40px; text-align: center;color: white; font-family: 'Times New Roman', Times, serif">If you are interested, I would love to hear your feedback </h3>
+<br>
+<h3 style="font-size: 20px; text-align: center;color: black; font-family: 'Times New Roman', Times, serif">Email:   a.sifingo.as@gmail.com</h3>
+<h3 style="font-size: 20px; text-align: center;color: black; font-family: 'Times New Roman', Times, serif">No;      0734186227</h3>
+<h3 style="font-size: 20px; text-align: center;color: black; font-family: 'Times New Roman', Times, serif">Mon-Fri: 09:00am-17:00pm </h3>
+<h3 style="font-size: 20px; text-align: center;color:black; font-family: 'Times New Roman', Times, serif">Postal address: POX 774 Khayelitsha 7784, Cape Town South Africa </h3>
+<br>
+<div class="container">
+        
+        <div class="row">
+          <div class="col-25">
+          <form method="post" action="https://getform.io/f/89214c21-aa6d-4ef7-a252-d0d0c7c76192">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">How can I help you?</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Send message">  
+        </div>
+        </form>
+      </div>
+
+
+                    
+</body>
+</html>
